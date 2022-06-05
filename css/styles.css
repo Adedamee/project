@@ -140,7 +140,7 @@ a:hover {
 }
 
 .blue {
-  color: #2259ec;
+  color:#17A2B8 ;
 }
 
 .bg-gray {
@@ -158,8 +158,8 @@ a:hover {
 .btn-solid-reg {
   display: inline-block;
   padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-  border: 1px solid #082f50;
-  background-color: #082f50;
+  border: 1px solid #17A2B8 ;
+  background-color: #17A2B8;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.z875rem;
@@ -170,15 +170,15 @@ a:hover {
 
 .btn-solid-reg:hover {
   background-color: transparent;
-  color: #082f50; /* needs to stay here because of the color property of a tag */
+  color:#17A2B8 ; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
 .btn-solid-lg {
   display: inline-block;
   padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-  border: 1px solid #082f50;
-  background-color:#082f50 ;
+  border: 1px solid #17A2B8;
+  background-color:#17A2B8 ;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -189,7 +189,7 @@ a:hover {
 
 .btn-solid-lg:hover {
   background-color: transparent;
-  color: #082f50; /* needs to stay here because of the color property of a tag */
+  color:#17A2B8 ; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
   
 }
@@ -197,9 +197,9 @@ a:hover {
 .btn-outline-reg {
   display: inline-block;
   padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-  border: 1px solid #24262a;
+  border: 1px solid #17A2B8;
   background-color: transparent;
-  color: #24262a;
+  color: #17A2B8;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0;
@@ -235,9 +235,9 @@ a:hover {
 .btn-outline-sm {
   display: inline-block;
   padding: 1rem 1.5rem 1rem 1.5rem;
-  border: 1px solid #24262a;
+  border: 1px solid#17A2B8 ;
   background-color: transparent;
-  color: #24262a;
+  color:#17A2B8 ;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0;
@@ -246,7 +246,7 @@ a:hover {
 }
 
 .btn-outline-sm:hover {
-  background-color: #24262a;
+  background-color:#17A2B8 ;
   color: #ffffff;
   text-decoration: none;
 }
@@ -356,9 +356,9 @@ input[type="checkbox"] {
   display: inline-block;
   width: 100%;
   height: 3.25rem;
-  border: 1px solid #0b36a8;
-  border-radius: 32px;
-  background-color: #0b36a8;
+  border: 1px solid #17A2B8;
+  border-radius: 30px;
+  background-color: #17A2B8;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -368,7 +368,7 @@ input[type="checkbox"] {
 }
 
 .form-control-submit-button:hover {
-  border: 1px solid #24262a;
+  border: 1px solid #17A2B8;
   background-color: transparent;
   color: #24262a;
 }
@@ -377,7 +377,7 @@ input[type="checkbox"] {
 /*     Navigation     */
 /**********************/
 .navbar {
-  background-color:white;
+  background-color:#c975e2;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0.875rem;
@@ -385,10 +385,13 @@ input[type="checkbox"] {
   position: fixed;
   top: 0;
 }
-
+.navbar {
+  background-color:#c975e2 ;
+}
 .navbar .navbar-brand {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
+  
 }
 
 .navbar .logo-image img {
@@ -531,7 +534,7 @@ input[type="checkbox"] {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;*/
-  background-color:#eaa0ce;
+  background-color:whitesmoke;
   opacity: 0.85;
   
   
@@ -604,13 +607,14 @@ color:#FFEAFC ;
 .basic-1 {
   padding-top: 7.75rem;
   padding-bottom: 5.25rem;
-  background-color:#AEF8FF ;
+  background-color:whitesmoke ;
   opacity: 0.95;
 }
 
 .basic-1 .text-container {
   margin-bottom: 3rem;
   color:#FFEAFC ;
+  
 
   
 }
@@ -715,6 +719,7 @@ color:#FFEAFC ;
 
 .basic-3 .text-container {
   margin-bottom: 4rem;
+
 }
 
 .basic-3 .image-container {
@@ -885,7 +890,7 @@ color:#FFEAFC ;
   padding-top: 7.75rem;
   padding-bottom: 7rem;
   text-align: center;
-  color: #004473;
+  color:#17A2B8 ;
 }
 
 .form-1 .h2-heading {
@@ -903,7 +908,7 @@ color:#FFEAFC ;
 .footer {
   padding-top: 1.25rem;
   padding-bottom: 0.5rem;
-  background-color:#AEF8FF;
+  background-color:#17A2B8;
   text-align: center;
 }
 
@@ -942,7 +947,7 @@ color:#FFEAFC ;
 .copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color:#AEF8FF ;
+  background-color:#17A2B8;
   text-align: center;
 }
 
@@ -1268,8 +1273,8 @@ a:hover.back-to-top {
   }
 
   .basic-1 .text-container.second {
-    /*margin-right: 1rem;
-    /*margin-left: 1rem;*/
+    margin-right: 1rem;
+    margin-left: 1rem;
     justify-content: left;
   }
 
