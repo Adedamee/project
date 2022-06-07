@@ -551,14 +551,18 @@ input[type="checkbox"] {
   position: absolute;
   bottom:0;
   right: 100px;
+  
 }
 
 .header-img img {
-height: 100%;
+height: auto;
 position: absolute;
 left: 50%;
 bottom: 0;
-transform: translate(-100px, -60px);
+transform: translate(-150px, -60px);
+object-fit: contain;
+
+
 
 
 transition: bottom 1s,left 1s;
@@ -1041,12 +1045,21 @@ a:hover.back-to-top {
 /*     Media Queries     */
 /*************************/
 /* Min-width 768px */
-@media (min-width: 768px) {
+
+
+    
+
+@media (max-width: 768px) {
   /* Header */
   .header {
     padding-top: 11rem;
     padding-bottom: 9rem;
+    }
+
+  .header-img img{
+    margin-left: 65px;
   }
+    
   /* end of header */
 
   /* Services */
@@ -1082,7 +1095,14 @@ a:hover.back-to-top {
     margin-right: auto;
     margin-left: auto;
   }
+  
+.header-img img{
+  transform: translateX(-30%);
+  
+}
 
+  
+}
   .p-heading {
     width: 46rem;
     margin-right: auto;
@@ -1246,12 +1266,18 @@ a:hover.back-to-top {
 }
 /* end of min-width 992px */
 
-/* Min-width 1200px */
-@media (min-width: 1200px) {
+/* max-width 1200px */
+@media (max-width: 1200px) {
   /* General Styles */
   .h1-large {
     font-size: 20px;
     line-height: 2rem;
+  }.header{
+    padding-left: 0;
+    margin-left: 0.25rem;
+  }
+  .header-img img{
+    transform: translateX(-50px);
   }
   /* end of general styles */
 
